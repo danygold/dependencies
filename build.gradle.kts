@@ -5,7 +5,7 @@ plugins {
     id("org.openjfx.javafxplugin") version "0.0.14"
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("org.panteleyev.jpackageplugin") version "1.5.2"
-    id("com.github.jk1.dependency-license-report") version "2.3"
+    id("com.github.jk1.dependency-license-report") version "2.4"
     id("org.jetbrains.changelog") version "2.1.0"
     id("net.researchgate.release") version "3.0.2"
 }
