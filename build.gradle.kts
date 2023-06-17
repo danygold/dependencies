@@ -46,7 +46,7 @@ dependencies {
     implementation("net.java.dev.jna:jna-platform:5.13.0")
 
     implementation("org.jetbrains:annotations:24.0.1")
-    implementation("com.google.errorprone:error_prone_annotations:2.19.1")
+    implementation("com.google.errorprone:error_prone_annotations:2.20.0")
 
     implementation("com.puppycrawl.tools:checkstyle:10.12.0")
 
