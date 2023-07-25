@@ -51,7 +51,7 @@ dependencies {
     implementation("com.puppycrawl.tools:checkstyle:10.12.1")
 
     testImplementation("org.testfx:testfx-junit5:4.0.16-alpha")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.9.3")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
 }
 
 tasks.test {
