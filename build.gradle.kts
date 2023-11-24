@@ -45,7 +45,7 @@ dependencies {
     implementation("org.apache.tika:tika-core:2.9.1")
     implementation("net.java.dev.jna:jna-platform:5.13.0")
 
-    implementation("org.jetbrains:annotations:24.0.1")
+    implementation("org.jetbrains:annotations:24.1.0")
     implementation("com.google.errorprone:error_prone_annotations:2.21.1")
 
     implementation("com.puppycrawl.tools:checkstyle:10.12.5")
