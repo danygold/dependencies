@@ -27,7 +27,7 @@ repositories {
 
 dependencies {
     implementation("org.apache.logging.log4j:log4j-core:2.22.0")
-    implementation("org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0") // tika-core slf4j2 logger
+    implementation("org.apache.logging.log4j:log4j-slf4j2-impl:2.22.0") // tika-core slf4j2 logger
     implementation("org.apache.commons:commons-lang3:3.13.0")
     implementation("org.apache.commons:commons-text:1.11.0")
     implementation("org.apache.commons:commons-csv:1.10.0")
