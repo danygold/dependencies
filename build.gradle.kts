@@ -4,7 +4,7 @@ plugins {
     id("checkstyle")
     id("org.openjfx.javafxplugin") version "0.0.14"
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("org.panteleyev.jpackageplugin") version "1.5.2"
+    id("org.panteleyev.jpackageplugin") version "1.6.0"
     id("com.github.jk1.dependency-license-report") version "2.5"
     id("org.jetbrains.changelog") version "2.2.0"
     id("net.researchgate.release") version "3.0.2"
