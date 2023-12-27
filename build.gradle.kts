@@ -15,10 +15,8 @@ version = "1.0-SNAPSHOT"
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(17))
+        languageVersion = JavaLanguageVersion.of(21)
     }
-    withJavadocJar()
-    withSourcesJar()
 }
 
 repositories {
@@ -51,10 +49,16 @@ dependencies {
     implementation("com.puppycrawl.tools:checkstyle:10.12.5")
 
     testImplementation("org.testfx:testfx-junit5:4.0.17")
-    testImplementation 'org.hamcrest:hamcrest:2.2' // testfx-junit5 dependency
+    testImplementation("org.hamcrest:hamcrest:2.2") // testfx-junit5 dependency
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
 }
 
-tasks.test {
-    useJUnitPlatform()
+application {
+    mainClass = "org.example.Main"
+}
+
+tasks {
+    test {
+        useJUnitPlatform()
+    }
 }
