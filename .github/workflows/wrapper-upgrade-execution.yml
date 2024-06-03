@@ -16,10 +16,10 @@ jobs:
         run: git config --global url."https://unused-username:${TOKEN}@github.com/".insteadOf "https://github.com/"
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up JDK 17
+      - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
       - name: Set up Gradle
         uses: gradle/gradle-build-action@v2
