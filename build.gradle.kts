@@ -8,6 +8,8 @@ plugins {
     id("com.github.jk1.dependency-license-report") version "2.8"
     id("org.jetbrains.changelog") version "2.2.0"
     id("net.researchgate.release") version "3.0.2"
+    // Upgrade gradle wrapper
+    id("org.gradle.wrapper-upgrade") version "0.11.4"
 }
 
 group = "org.example"
@@ -60,5 +62,14 @@ application {
 tasks {
     test {
         useJUnitPlatform()
+    }
+}
+
+wrapperUpgrade {
+    gradle {
+        register("dependencies") {
+            repo = "danygold/dependencies"
+            baseBranch = "master"
+        }
     }
 }
