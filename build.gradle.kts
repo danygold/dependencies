@@ -6,7 +6,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("org.panteleyev.jpackageplugin") version "1.6.0"
     id("com.github.jk1.dependency-license-report") version "2.8"
-    id("org.jetbrains.changelog") version "2.2.0"
+    id("org.jetbrains.changelog") version "2.2.1"
     id("net.researchgate.release") version "3.0.2"
 }
 
