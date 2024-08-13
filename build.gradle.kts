@@ -49,7 +49,7 @@ dependencies {
     implementation("com.puppycrawl.tools:checkstyle:10.17.0")
 
     testImplementation("org.testfx:testfx-junit5:4.0.18")
-    testImplementation("org.hamcrest:hamcrest:2.2") // testfx-junit5 dependency
+    testImplementation("org.hamcrest:hamcrest:3.0") // testfx-junit5 dependency
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.3")
 }
 
