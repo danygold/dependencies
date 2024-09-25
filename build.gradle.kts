@@ -50,7 +50,7 @@ dependencies {
 
     testImplementation("org.testfx:testfx-junit5:4.0.18")
     testImplementation("org.hamcrest:hamcrest:3.0") // testfx-junit5 dependency
-    testImplementation("org.junit.jupiter:junit-jupiter:5.11.0")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.11.1")
 }
 
 application {
