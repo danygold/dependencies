@@ -43,7 +43,7 @@ dependencies {
     implementation("org.apache.tika:tika-core:2.9.2")
     implementation("net.java.dev.jna:jna-platform:5.15.0")
 
-    implementation("org.jetbrains:annotations:24.1.0")
+    implementation("org.jetbrains:annotations:25.0.0")
     implementation("com.google.errorprone:error_prone_annotations:2.32.0")
 
     implementation("com.puppycrawl.tools:checkstyle:10.18.1")
