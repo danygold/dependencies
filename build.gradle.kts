@@ -3,7 +3,7 @@ plugins {
     id("application")
     id("checkstyle")
     id("org.openjfx.javafxplugin") version "0.1.0"
-    id("com.github.johnrengelman.shadow") version "8.1.1"
+    id("com.gradleup.shadow") version "8.3.5"
     id("org.panteleyev.jpackageplugin") version "1.6.0"
     id("com.github.jk1.dependency-license-report") version "2.9"
     id("org.jetbrains.changelog") version "2.2.1"
@@ -35,7 +35,6 @@ dependencies {
     implementation("com.squareup.moshi:moshi:1.15.1")
     implementation("com.squareup.moshi:moshi-adapters:1.15.1")
     implementation("io.github.danygold:fx-moshi:1.0.0")
-    implementation("org.ahocorasick:ahocorasick:0.6.3")
     implementation("org.controlsfx:controlsfx:11.2.1")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("org.xerial:sqlite-jdbc:3.47.0.0")
@@ -51,6 +50,7 @@ dependencies {
     testImplementation("org.testfx:testfx-junit5:4.0.18")
     testImplementation("org.hamcrest:hamcrest:3.0") // testfx-junit5 dependency
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.3")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.11.3") // Gradle 9+
 }
 
 application {
