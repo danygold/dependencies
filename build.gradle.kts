@@ -32,7 +32,7 @@ dependencies {
     implementation("commons-io:commons-io:2.18.0")
     implementation("commons-codec:commons-codec:1.17.1")
     implementation("org.json:json:20240303")
-    implementation("com.squareup.moshi:moshi:1.15.1")
+    implementation("com.squareup.moshi:moshi:1.15.2")
     implementation("com.squareup.moshi:moshi-adapters:1.15.2")
     implementation("io.github.danygold:fx-moshi:1.0.0")
     implementation("org.controlsfx:controlsfx:11.2.1")
