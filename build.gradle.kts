@@ -7,7 +7,7 @@ plugins {
     id("org.panteleyev.jpackageplugin") version "1.6.0"
     id("com.github.jk1.dependency-license-report") version "2.9"
     id("org.jetbrains.changelog") version "2.2.1"
-    id("net.researchgate.release") version "3.0.2"
+    id("net.researchgate.release") version "3.1.0"
 }
 
 group = "org.example"
