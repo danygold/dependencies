@@ -42,7 +42,7 @@ dependencies {
     implementation("org.apache.tika:tika-core:3.1.0")
 
     implementation("org.jetbrains:annotations:26.0.2")
-    implementation("com.google.errorprone:error_prone_annotations:2.36.0")
+    implementation("com.google.errorprone:error_prone_annotations:2.37.0")
 
     implementation("com.puppycrawl.tools:checkstyle:10.21.4")
 
