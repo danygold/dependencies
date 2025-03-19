@@ -28,7 +28,7 @@ dependencies {
     implementation("org.apache.logging.log4j:log4j-slf4j2-impl:2.24.3") // tika-core slf4j2 logger
     implementation("org.apache.commons:commons-lang3:3.17.0")
     implementation("org.apache.commons:commons-text:1.13.0")
-    implementation("org.apache.commons:commons-csv:1.13.0")
+    implementation("org.apache.commons:commons-csv:1.14.0")
     implementation("commons-io:commons-io:2.18.0")
     implementation("commons-codec:commons-codec:1.18.0")
     implementation("org.json:json:20250107")
