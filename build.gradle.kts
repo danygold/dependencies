@@ -6,7 +6,7 @@ plugins {
     id("com.gradleup.shadow") version "9.0.1"
     id("org.panteleyev.jpackageplugin") version "1.7.3"
     id("com.github.jk1.dependency-license-report") version "2.9"
-    id("org.jetbrains.changelog") version "2.3.0"
+    id("org.jetbrains.changelog") version "2.4.0"
     id("net.researchgate.release") version "3.1.0"
 }
 
