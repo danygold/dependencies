@@ -3,7 +3,7 @@ plugins {
     id("application")
     id("checkstyle")
     id("org.openjfx.javafxplugin") version "0.1.0"
-    id("com.gradleup.shadow") version "9.0.2"
+    id("com.gradleup.shadow") version "9.1.0"
     id("org.panteleyev.jpackageplugin") version "1.7.5"
     id("com.github.jk1.dependency-license-report") version "2.9"
     id("org.jetbrains.changelog") version "2.4.0"
