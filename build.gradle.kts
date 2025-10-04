@@ -39,7 +39,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:5.1.0")
     implementation("org.xerial:sqlite-jdbc:3.50.3.0")
     implementation("com.github.albfernandez:juniversalchardet:2.5.0")
-    implementation("org.apache.tika:tika-core:3.2.2")
+    implementation("org.apache.tika:tika-core:3.2.3")
     implementation("com.github.oshi:oshi-core-java25:6.9.0")
 
     implementation("org.jetbrains:annotations:26.0.2-1")
