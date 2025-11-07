@@ -29,7 +29,7 @@ dependencies {
     implementation("org.apache.commons:commons-lang3:3.19.0")
     implementation("org.apache.commons:commons-text:1.14.0")
     implementation("org.apache.commons:commons-csv:1.14.1")
-    implementation("commons-io:commons-io:2.20.0")
+    implementation("commons-io:commons-io:2.21.0")
     implementation("commons-codec:commons-codec:1.20.0")
     implementation("org.json:json:20250517")
     implementation("com.squareup.moshi:moshi:1.15.2")
