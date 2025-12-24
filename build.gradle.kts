@@ -31,7 +31,7 @@ dependencies {
     implementation("org.apache.commons:commons-csv:1.14.1")
     implementation("commons-io:commons-io:2.21.0")
     implementation("commons-codec:commons-codec:1.20.0")
-    implementation("org.json:json:20250517")
+    implementation("org.json:json:20251224")
     implementation("com.squareup.moshi:moshi:1.15.2")
     implementation("com.squareup.moshi:moshi-adapters:1.15.2")
     implementation("io.github.danygold:fx-moshi:1.0.0")
