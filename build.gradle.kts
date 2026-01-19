@@ -43,7 +43,7 @@ dependencies {
     implementation("com.github.oshi:oshi-core-java25:6.9.2")
 
     implementation("org.jetbrains:annotations:26.0.2-1")
-    implementation("com.google.errorprone:error_prone_annotations:2.45.0")
+    implementation("com.google.errorprone:error_prone_annotations:2.46.0")
 
     implementation("com.puppycrawl.tools:checkstyle:13.0.0")
 
