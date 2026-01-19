@@ -50,7 +50,7 @@ dependencies {
     testImplementation("org.testfx:testfx-junit5:4.0.18")
     testImplementation("org.hamcrest:hamcrest:3.0") // testfx-junit5 dependency
     testImplementation("org.junit.jupiter:junit-jupiter:6.0.1")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.0.1") // Gradle 9+
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.0.2") // Gradle 9+
 }
 
 application {
