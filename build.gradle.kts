@@ -45,7 +45,7 @@ dependencies {
     implementation("org.jetbrains:annotations:26.0.2-1")
     implementation("com.google.errorprone:error_prone_annotations:2.46.0")
 
-    implementation("com.puppycrawl.tools:checkstyle:13.1.0")
+    implementation("com.puppycrawl.tools:checkstyle:13.2.0")
 
     testImplementation("org.testfx:testfx-junit5:4.0.18")
     testImplementation("org.hamcrest:hamcrest:3.0") // testfx-junit5 dependency
