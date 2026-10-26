@@ -43,7 +43,7 @@ dependencies {
     implementation("com.github.oshi:oshi-core-ffm:7.7.2")
 
     implementation("org.jetbrains:annotations:26.1.0")
-    implementation("com.google.errorprone:error_prone_annotations:2.50.0")
+    implementation("com.google.errorprone:error_prone_annotations:2.51.0")
 
     implementation("com.puppycrawl.tools:checkstyle:14.3.0")
 
