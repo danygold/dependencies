@@ -37,7 +37,7 @@ dependencies {
     implementation("io.github.danygold:fx-moshi:1.0.0")
     implementation("org.controlsfx:controlsfx:11.2.6")
     implementation("com.squareup.okhttp3:okhttp:5.5.1")
-    implementation("org.xerial:sqlite-jdbc:3.53.4.0")
+    implementation("org.xerial:sqlite-jdbc:3.54.1.0")
     implementation("com.github.albfernandez:juniversalchardet:2.5.2")
     implementation("org.apache.tika:tika-core:4.1.0")
     implementation("com.github.oshi:oshi-core-ffm:7.7.2")
