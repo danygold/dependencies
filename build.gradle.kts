@@ -40,7 +40,7 @@ dependencies {
     implementation("org.xerial:sqlite-jdbc:3.54.1.0")
     implementation("com.github.albfernandez:juniversalchardet:2.5.2")
     implementation("org.apache.tika:tika-core:4.2.0")
-    implementation("com.github.oshi:oshi-core-ffm:7.7.2")
+    implementation("com.github.oshi:oshi-core-ffm:7.7.3")
 
     implementation("org.jetbrains:annotations:26.1.0")
     implementation("com.google.errorprone:error_prone_annotations:2.51.0")
